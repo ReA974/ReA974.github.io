@@ -1,0 +1,36 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn:   <http://www.geonames.org/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix pav:  <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://orcid.org/0000-0002-1156-4448#orcid-id>
+        rdf:type                     foaf:OnlineAccount ;
+        rdfs:label                   "0000-0002-1156-4448" ;
+        foaf:accountName             "0000-0002-1156-4448" ;
+        foaf:accountServiceHomepage  <http://orcid.org> .
+
+<http://pub.orcid.org/orcid-pub-web/experimental_rdf_v1/0000-0002-1156-4448>
+        rdf:type              foaf:PersonalProfileDocument ;
+        pav:createdBy         <https://orcid.org/0000-0002-1156-4448> ;
+        pav:createdOn         "2022-09-27T11:52:12.066Z"^^xsd:dateTime ;
+        pav:createdWith       <http://orcid.org> ;
+        pav:lastUpdateOn      "2022-09-27T11:52:28.854Z"^^xsd:dateTime ;
+        prov:generatedAtTime  "2022-09-27T11:52:28.854Z"^^xsd:dateTime ;
+        prov:wasAttributedTo  <https://orcid.org/0000-0002-1156-4448> ;
+        foaf:maker            <https://orcid.org/0000-0002-1156-4448> ;
+        foaf:primaryTopic     <https://orcid.org/0000-0002-1156-4448> .
+
+<https://orcid.org/0000-0002-1156-4448#workspace-works>
+        rdf:type  foaf:Document .
+
+<https://orcid.org/0000-0002-1156-4448>
+        rdf:type           prov:Person , foaf:Person ;
+        rdfs:label         "Erwan Thibaut" ;
+        foaf:account       <https://orcid.org/0000-0002-1156-4448#orcid-id> ;
+        foaf:familyName    "Thibaut" ;
+        foaf:givenName     "Erwan" ;
+        foaf:publications  <https://orcid.org/0000-0002-1156-4448#workspace-works> .
