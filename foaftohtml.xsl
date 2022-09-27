@@ -28,4 +28,18 @@
     <br />
     <xsl:text>&#013;</xsl:text>
   </xsl:template>
+  <xsl:template match="rdf:RDF/foaf:knows">
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>Name</th>
+        <th>homepage</th>
+      </tr>
+      <tr>
+        <td><xsl:value-of select="foaf:Person/foaf:name"/></td>
+        <td><xsl:value-of select="foaf:Person/foaf:homepage/@rdf:resource"/></td>
+      </tr>
+    </table>
+    <br />
+    <xsl:text>&#013;</xsl:text>
+  </xsl:template>
 </xsl:stylesheet>
