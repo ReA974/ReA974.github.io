@@ -25,12 +25,14 @@
 <foaf:Person>
 <foaf:name>Romain Poyault</foaf:name>
 <foaf:homepage>https://romainpoyault.github.io/</foaf:homepage>
+<rdfs:seeAlso rdf:resource="https://romainpoyault.github.io/" />
 </foaf:Person>
 </foaf:knows>
 <foaf:knows>
 <foaf:Person>
 <foaf:name>Olivier Francou</foaf:name>
 <foaf:homepage>https://olivierf-git.github.io/</foaf:homepage>
+<rdfs:seeAlso rdf:resource="https://olivierf-git.github.io/" />
 </foaf:Person>
 </foaf:knows>
 </foaf:Person>
