@@ -14,7 +14,6 @@
         <th>nick</th>
         <th>mbox_sha1sum</th>
         <th>homepage</th>
-        <th>schoolHomepage</th>
       </tr>
       <tr>
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:name"/></td>
@@ -24,7 +23,6 @@
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:nick"/></td>
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:mbox_sha1sum"/></td>
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage/@rdf:resource"/></td>
       </tr>
     </table>
     <br />
