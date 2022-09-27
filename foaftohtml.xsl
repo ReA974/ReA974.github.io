@@ -16,13 +16,13 @@
         <th>homepage</th>
       </tr>
       <tr>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:name"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:title"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:givenname"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:family_name"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:nick"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:mbox_sha1sum"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></td>
+        <td><xsl:value-of select="foaf:name"/></td>
+        <td><xsl:value-of select="foaf:title"/></td>
+        <td><xsl:value-of select="foaf:givenname"/></td>
+        <td><xsl:value-of select="foaf:family_name"/></td>
+        <td><xsl:value-of select="foaf:nick"/></td>
+        <td><xsl:value-of select="foaf:mbox_sha1sum"/></td>
+        <td><xsl:value-of select="foaf:homepage/@rdf:resource"/></td>
       </tr>
     </table>
     <br />
