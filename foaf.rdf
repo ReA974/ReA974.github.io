@@ -13,7 +13,7 @@
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
 <foaf:name>Erwan Thibaut</foaf:name>
-<foaf:title>Non-binaire</foaf:title>
+<foaf:gender>Non-binaire</foaf:gender>
 <foaf:givenname>Erwan</foaf:givenname>
 <foaf:family_name>Thibaut</foaf:family_name>
 <foaf:nick>rea974</foaf:nick>
