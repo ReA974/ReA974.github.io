@@ -8,7 +8,7 @@
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>Name</th>
-        <th>Title</th>
+        <th>Gender</th>
         <th>givenname</th>
         <th>family_name</th>
         <th>nick</th>
@@ -17,7 +17,7 @@
       </tr>
       <tr>
         <td><xsl:value-of select="foaf:name"/></td>
-        <td><xsl:value-of select="foaf:title"/></td>
+        <td><xsl:value-of select="foaf:gender"/></td>
         <td><xsl:value-of select="foaf:givenname"/></td>
         <td><xsl:value-of select="foaf:family_name"/></td>
         <td><xsl:value-of select="foaf:nick"/></td>
